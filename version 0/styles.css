@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+body{
+    font-family:cursive;
+    background-color:lightgrey;
+}
+
+.text{
+    background: rgb(0, 5, 7);
+    max-width: 1600px;
+    height: 80px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+    /* position: static; */
+}
+.text ul{
+    display: inline-flex;
+    list-style: none;
+    color: #ffffff;
+}
+.text ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.text ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .text ul li:hover{
+    border: 0.5px solid white;
+}
+#para{
+    border: 1px;
+    text-align: inherit;
+    font-size: 15px;
+    font-family: cursive;
+}
+.musuem img{
+    padding-inline-end;
+    position: absolute;
+    left:35%;
+    bottom:55%;
+
+}
+.history{
+    padding-right: center;
+    position: absolute;
+    left:45%;
+    bottom:45%;
+}
+.history1{
+    padding-inline: center;
+    position: absolute;
+    left:21%;
+    top :55%;
+}
+#Classification{
+    font-size: 50px;
+}
+.history img{
+    float: right;
+    position: absolute;
+    left: 75%;
+    right: 21%;
+}
+.wrapper{
+    display: flex;
+    position: relative;
+}
+.wrapper .sidebar{
+    position: static;
+    width: 200px;
+    height: 100%;
+    background: rgb(109, 205, 235);
+    padding: 30px 0;
+}
+.wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+.wrapper .sidebar ul li a{
+    color: white;
+    display: block;
+}
+#leftbox { 
+    float:left;   
+    width:30%; 
+    height:150px; 
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+#middlebox{ 
+    float:left;  
+    width:30%; 
+    height:150px; 
+    margin-left: 20px;
+    margin-right: 10px;
+} 
+#rightbox{ 
+    float:right;  
+    width:33%; 
+    height:150px; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.column {
+    float: left;
+    width: 30.33%;
+    
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    /* background-color: #dddddd; */
+  }
